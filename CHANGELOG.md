@@ -1,6 +1,10 @@
 # Changelog
 
 
+## vv2.0.0
+
+[compare changes](https://github.com/itplusx/sevdesk-api-ts-client/compare/v1.1.0...vv2.0.0)
+
 ## v1.1.0
 
 [compare changes](https://github.com/itplusx/sevdesk-api-ts-client/compare/v1.0.2...v1.1.0)

@@ -1,6 +1,6 @@
 {
   "name": "@itplusx/sevdesk-api-ts-client",
-  "version": "1.1.0",
+  "version": "v2.0.0",
   "description": "TypeScript API Client for sevdesk API (2.0.0)",
   "license": "MIT",
   "sideEffects": false,
