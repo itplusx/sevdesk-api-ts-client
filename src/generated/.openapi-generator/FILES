@@ -75,6 +75,7 @@ models/ExportCreditNote200ResponseObjects.ts
 models/ExportCreditNoteSevQueryParameter.ts
 models/ExportCreditNoteSevQueryParameterFilter.ts
 models/ExportCreditNoteSevQueryParameterFilterContact.ts
+models/ExportDatevCSV200Response.ts
 models/ExportInvoice200Response.ts
 models/ExportInvoice200ResponseObjects.ts
 models/ExportInvoiceSevQueryParameter.ts
@@ -83,6 +84,8 @@ models/ExportInvoiceSevQueryParameterFilterContact.ts
 models/ExportInvoiceZip200Response.ts
 models/ExportInvoiceZip200ResponseObjects.ts
 models/ExportInvoiceZipSevQueryParameter.ts
+models/ExportJobDownloadInfo.ts
+models/ExportProgressData.ts
 models/ExportTransactions200Response.ts
 models/ExportTransactions200ResponseObjects.ts
 models/ExportTransactionsSevQueryParameter.ts
@@ -99,6 +102,7 @@ models/ExportVoucherZipSevQueryParameterFilter.ts
 models/ExportVoucherZipSevQueryParameterFilterContact.ts
 models/FindContactsByCustomFieldValue200Response.ts
 models/ForAllAccounts200Response.ts
+models/GenerateDownloadHash200Response.ts
 models/GetAccountingContact200Response.ts
 models/GetBalanceAtDate200Response.ts
 models/GetCheckAccounts200Response.ts
@@ -130,6 +134,7 @@ models/GetVoucherPositions200Response.ts
 models/GetVouchers200Response.ts
 models/GetcreditNotePositions200Response.ts
 models/InvoiceGetPdf200Response.ts
+models/InvoiceGetXml200Response.ts
 models/InvoiceRender201Response.ts
 models/InvoiceRender201ResponseParametersInner.ts
 models/InvoiceRender201ResponseParametersInnerValuesInner.ts
@@ -139,6 +144,7 @@ models/InvoiceResetToDraft200ResponseObjects.ts
 models/InvoiceResetToOpen200Response.ts
 models/InvoiceResetToOpen200ResponseObjects.ts
 models/InvoiceSendByRequest.ts
+models/JobDownloadInfo200Response.ts
 models/ModelAccountingContact.ts
 models/ModelAccountingContactContact.ts
 models/ModelAccountingContactResponse.ts
@@ -151,10 +157,8 @@ models/ModelChangeLayoutResponse.ts
 models/ModelChangeLayoutResponseMetadaten.ts
 models/ModelChangeLayoutResponseMetadatenThumbsInner.ts
 models/ModelChangeLayoutResponseMetadatenThumbsInnerValuesInner.ts
-models/ModelCheckAccount.ts
 models/ModelCheckAccountResponse.ts
 models/ModelCheckAccountResponseSevClient.ts
-models/ModelCheckAccountSevClient.ts
 models/ModelCheckAccountTransaction.ts
 models/ModelCheckAccountTransactionCheckAccount.ts
 models/ModelCheckAccountTransactionResponse.ts
@@ -201,6 +205,7 @@ models/ModelContactCustomFieldSettingResponse.ts
 models/ModelContactCustomFieldSettingResponseSevClient.ts
 models/ModelContactCustomFieldSettingUpdate.ts
 models/ModelContactCustomFieldUpdate.ts
+models/ModelContactCustomFieldUpdateContactCustomFieldSetting.ts
 models/ModelContactParent.ts
 models/ModelContactResponse.ts
 models/ModelContactResponseCategory.ts
@@ -384,6 +389,7 @@ models/SendCreditNoteViaEMail201Response.ts
 models/SendCreditNoteViaEMailRequest.ts
 models/SendInvoiceViaEMailRequest.ts
 models/SendorderViaEMail201Response.ts
+models/SendorderViaEMailRequest.ts
 models/UpdateExportConfigRequest.ts
 models/UpdateTagRequest.ts
 models/ValidationError.ts
